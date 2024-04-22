@@ -1,0 +1,8 @@
+.giao-vien {
+    background-color: #ebe8e8;
+}
+.img-item {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}

@@ -1,0 +1,16 @@
+.header {
+    text-align: center;
+}
+.home {
+    margin-top: 20px;
+}
+.infor {
+    text-align: center;
+}
+.box-img {
+    display: flex;
+    justify-content: center;
+}
+.item {
+    margin-top: 30px;
+}

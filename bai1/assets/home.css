@@ -1,0 +1,48 @@
+.home {
+    width: 100%;
+    margin-left: 20px;
+}
+.notice {
+    margin-top: 20px;
+    background-color: #eff7ef;
+    padding: 10px 10px 10px 22px;
+    font-size: 17px;
+    border-left: 4px solid #cfc6c6;
+}
+.item-1 {
+    background-color: #6c9ec6;
+}
+.item-2 {
+    background-color: #e9716d;
+}
+.item-3 {
+    background-color: #53bfb9;
+}
+.item-4 {
+    background-color: #9988b4;
+}
+.item {
+    height: 125px;
+    margin: 0 10px;
+    color: #fff;
+}
+.chart {
+    margin-top: 30px;
+}
+.chart-title {
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+.ct1 {
+    padding: 19px 0px 19px 18px;
+    font-size: 20px;
+}
+.ct2 {
+    font-size: 13px;
+}
+.number {
+    text-align: end;
+}
+.infor-number {
+    text-align: end;
+}

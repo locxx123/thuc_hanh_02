@@ -1,0 +1,35 @@
+<head>
+	<!-- Load plotly.js into the DOM -->
+	<script src='https://cdn.plot.ly/plotly-2.31.1.min.js'></script>
+</head>
+
+<body>
+	<div id='myDiv'><!-- Plotly chart will be drawn inside this DIV --></div>
+    <div class="infor" style="text-align: center;margin-top: 30px;font-size: 30px;">
+        <h1>Scatter Plot with a Color Dimension</h1>
+    </div>
+    <div class="define" style="margin: 50px;font-size: 25px;">
+        <span>A scatter plot (aka scatter chart, scatter graph) uses dots to represent values for two different numeric variables. The position of each dot on the horizontal and vertical axis indicates values for an individual data point. Scatter plots are used to observe relationships between variables.</span>
+    </div>
+</body>
+
+<script>
+    var trace1 = {
+  y: [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+  mode: 'markers',
+  marker: {
+    size: 40,
+    color: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+  }
+};
+
+var data = [trace1];
+
+var layout = {
+  title: 'Scatter Plot with a Color Dimension'
+};
+
+Plotly.newPlot('myDiv', data, layout);
+
+
+</script>
